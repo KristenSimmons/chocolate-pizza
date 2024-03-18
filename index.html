@@ -1,8 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chocolate Pizza</title>
   <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC|Yellowtail|Oswald" rel="stylesheet">
-  <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -11,11 +14,11 @@
     <div class="left">
       <img src="img/logo.png" />
       <div>
-        <p>Delicious</p>
-        <strong>The best food blog on the web</strong>
+        <h1 id="hD">Delicious</h1>
+        <p id="phrase">The best food blog on the web</p>
       </div>
     </div>
-    <nav>
+    <nav id="icons">
       <img src="img/fb-icon.png" />
       <img src="img/twit-icon.png" />
       <img src="img/gp-icon.png" />
@@ -32,16 +35,16 @@
         <header>
           <h1>Chocolate Pizza</h1>
           <div>
-            <strong>Posted on 15 Dec 2013 / Deserts</strong>
-            <img src="img/print-icon.png" />
+            <strong class="date-posted">Posted on 15 Dec 2013 / Deserts</strong>
+            <a href="#" id="printButton"><img src="./img/print-icon.png"></a>PRINT
           </div>
         </header>
         <figure>
-          <img src="img/choco-pizza.png" />
+          <img class="recipe-image" src="img/choco-pizza.png" />
         </figure>
       </div>
     </section>
-    <section>
+    <section class="recipe-instructions">
       <p>
         For the fig swirl, melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all
         of the figs and toss into a saucepan with water and lemon juice. Cook over medium heat, stirring frequently,
@@ -59,7 +62,7 @@
         before serving.
       </p>
     </section>
-    <section>
+    <section class="ingrediants">
       <figure>
         <img src="img/list-bg.png" />
       </figure>

@@ -1,20 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
-  background-color: white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+#hD {
+  font-family: "bello-pro", sans-serif;
+  font-size: 5vw;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#phrase {
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgray;
+  font-size: 1vw;
+  margin-top: 0;
+}
+
+#icons {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+#title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
   color: black;
 }
 
-header nav {
-  flex-direction: row;
-  margin: 0;
-  padding: 0;
-  display: flex;
+main {
+  width: 80%;
+  margin: 0 auto;
 }
 
-header img {
-  max-width: 100px;
-  height: auto;
+article {
+  margin: 20px 0;
+}
+
+article h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+}
+.date-posted {
+  color: grey;
+  font-size: 0.85em;
+}
+
+.recipe-image {
+  margin: 20px 0;
+}
+
+.recipe-instructions {
+  white-space: pre-line;
+  text-indent: 3em; 
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(127, 127, 127);
+  white-space: pre-line;
+}
+
+.ingredients {
+  margin: 20px 0;
+  position: relative;
 }
