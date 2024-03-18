@@ -1,0 +1,20 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  color: black;
+}
+
+header nav {
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header img {
+  max-width: 100px;
+  height: auto;
+}
